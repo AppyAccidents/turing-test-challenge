@@ -4,6 +4,23 @@
 
 This guide is created to provide context when working with Expo projects using Claude Code.
 
+## Quick Rules
+
+### What you can do without asking
+- Edit files only under: `src/`, `tests/`
+- Prefer small, incremental changes with tests after each step
+
+### Commands you should use
+- Install: `bun install` (project deps) / `npx expo install` (Expo libs)
+- Test: `bun test`
+- Lint: `bun lint`
+- Prebuild: `npx expo prebuild --clean`
+
+### Safety
+- Never run destructive commands (`rm -rf`, disk tools, `git reset --hard`, `git clean -f`)
+- If something requires network access or secrets, stop and ask
+- Never commit `.env`, credentials, or API keys
+
 ## MANDATORY REQUIREMENTS
 
 When creating a new Expo project, you MUST include ALL of the following:
