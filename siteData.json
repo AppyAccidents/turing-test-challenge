@@ -1,0 +1,13 @@
+{
+  "id": "turingtest",
+  "title": "Turing Test: Human vs AI",
+  "group_id": "group-mobile",
+  "platform_tag": "React Native",
+  "status": "coming_soon",
+  "description": "A neon brain duel where you guess who wrote what. Human? AI? Your confidence? Incorrect, but somehow still wearing sunglasses indoors.",
+  "vibe_tone": "cyan",
+  "vibe_text": "Offline-first with optional cloud scoreboard chaos.",
+  "art": "TURINGTEST",
+  "superpower": "Human-vs-AI text duels with competitive loops",
+  "order_index": 50
+}
